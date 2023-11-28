@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@600&family=Lobster&family=Poppins:wght@400;500;600;700&family=Titan+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Permanent Marker', cursive;;
+    font-weight: 1000;
+    color: #ffffff;
+}
+
+body{
+    background-color: #000000
+}
+
+/* Area header */
+header{
+    display: flex;
+}
+
+.container{
+    margin: 15px 125px;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 8vh;
+    width: 80vw;
+    border-radius: 10px;
+    background-color: #222121;
+}
+
+.header-icons{
+    object-fit: cover;
+    display: flex;
+}
+
+.icons{
+    display: inline-flex;
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    filter: invert();
+}
+
+.icons:first-child{
+    margin-left: 60px;
+}
+
+.icons:hover{
+    transform: scale(1.1);
+    transition: all 300ms ease;
+    box-shadow: 0px 0px 10px 0px #00000080;
+    cursor: pointer;
+}
+
+.header-info{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.info{
+    display: flex;
+    list-style-type: none;
+}
+
+/* Area nav */
+nav ul li a{    
+    font-size: 18px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+nav ul li a:first-child{
+    padding-right: 40px;
+}
+
+nav ul li a:hover{
+    color: #14dae0;
+    
+}
+
+/* Area principal */
+.main{
+    position: static;
+    display: flex;
+    width: 70vw;
+    margin: auto;
+    margin-top: 80px;
+    justify-content: space-between;
+    align-items: center;
+    background: #000000;
+}
+
+.main-img{
+    display: flex;
+    margin: 90px 20px;
+    height: 350px;
+}
+
+.main-img img{
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.main-reseña{
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
+
+.main-reseña h3{
+    font-size: 18px;
+    letter-spacing: 0.8px;
+    color: #37f0f7;
+}
+
+.main-reseña h1{
+    font-size: 50px;
+    letter-spacing: 0.5px;
+}
+
+.main-reseña h2{
+    font-size: 25px;
+    letter-spacing: 0.5px;
+    color: #ffffff;
+}
+.main-reseña h2 span{
+    font-size: 25px;
+    letter-spacing: 0.5px;
+    color: #37f0f7;
+}
+
+.main-reseña p{
+    margin-top: 10px;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    color: #928e8e;
+}
+
+.botton{
+    margin-top: 40px;
+    display: flex;
+}
+
+.botton button{
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    background: transparent;
+    color: #14dae0;
+    padding: 10px 35px;
+    border-radius: 10px;
+    border: 1px solid #14dae0;
+}
+
+.botton button:hover{
+    color: #ca0f0f;
+    border: 1px solid #ca0f0f;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+/* Sobre mi */
+.about{
+    width: 98.6vw;
+    height: 700px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    background-color: #222121;
+}
+
+.about-img{
+    display: flex;
+    width: 40%;
+    height: 80%;
+    object-fit: cover;
+    margin-right: -70px;
+}
+
+.about-img img{
+    border-radius: 10px;
+}
+
+.about-info{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-right: 40px;
+    margin-left: 100px
+}
+
+.about-info h2{
+    font-size: 35px;
+    color: #14dae0;
+}
+
+.about-info p{
+    font-weight: 400;
+    padding-top: 15px;
+}
+
+
