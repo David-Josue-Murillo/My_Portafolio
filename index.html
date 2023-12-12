@@ -2,131 +2,149 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="David Murillo">
-    <link rel="stylesheet" href="css/estilos.css">
-    <title>Portafolio</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <title>David Murillo</title>
 </head>
-<body>
-    <header>
-        <div class="container">
-            <div class="header-icons">
-                <div class="icons"><img src="img/linkedin.png" alt=""></div>
-                <div class="icons"><img src="img/instagram.png" alt=""></div>
-                <div class="icons"><img src="img/discord.png" alt=""></div>
-                <div class="icons"><img src="img/github.png" alt=""></div>
-            </div>
-            <div class="header-info">
-                <nav>
+<body class="body">
+    <div class="grid-container">
+        <nav class="caja c1">
+            <div class="nav">
+                <div class="block-nav block-nav-1">
+                    <div class="nav-icons"><img src="img/linkedin.png" alt=""></div>
+                    <div class="nav-icons"><img src="img/instagram.png" alt=""></div>
+                    <div class="nav-icons"><img src="img/discord.png" alt=""></div>
+                    <div class="nav-icons"><img src="img/github.png" alt=""></div>
+                </div>
+                <div class="block-nav block-nav-2">
                     <ul class="info">
-                        <li><a href="#">Sobre mi</a></li>
-                        <li><a href="#">Habilidades</a></li>
-                        <li><a href="#">Proyectos</a></li>
-                        <li><a href="#">Contacto</a></li>
+                        <li><a href="#sobre-mi">Sobre mi</a></li>
+                        <li><a href="#habilidades">Habilidades</a></li>
+                        <li><a href="#proyectos">Proyectos</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
                     </ul>
-                </nav>
+                </div>
             </div>
-        </div>
-    </header>
-
-    <div class="main" id="inicio">
-        <div class="main-img">
-            <img src="img/me.jpg" alt="">
-        </div>
-        <div class="main-reseña">
-            <h3>¡Hey!, Me llamo</h3>
-            <h1>David Murillo</h1>
-            <h2>y soy <span>web developer</span></h2>
-            <p>Soy un joven apasionado por el desarrollo web. Adoro el diseño y la experiencia como programador, 
-                y veo cada proyecto como una nueva aventura.
-            </p>
-            <div class="botton">
-                <button>Download CV</button>
-            </div>
-        </div>
-    </div>
-
-    <div class="about" id="sobre-mi">
-        <div class="about-img">
-            <img src="img/david.png" alt="">
-        </div>
-        <div class="about-info">
-            <h2>Acerca de mi</h2>
-            <p>
-                A pesar de que llevo 6 meses programando como desarrollador Frontend, me desenvuelto mui bien a tal punto que 
-                mis ganas de aprender son insaciables. He trabajado en varios proyectos, aunque todos personales, pero me ha 
-                ayudado a mejorar mis habilidades y pienso seguir expandiendo mis conocimientos, hasta donde más pueda, Me encanta 
-                la programación y todo lo relacionado con el desarrollo web.
-            </p>
-            <p>
-                además estoy en la universidad, donde estudio una licenciatura en la gestión educativa y empresarial enfocada 
-                en la informática, por lo que tengo la oportunidad de combinar mis conocimientos en programación con mis estudios 
-                universitarios. Durante mi tiempo en la universidad, he aprendido sobre gestión de proyectos, análisis de datos y 
-                diseño de sistemas de información.
-            </p>
-            <p>
-                En mi tiempo libre, disfruto explorando nuevas tecnologías y participando en comunidades de desarrollo. 
-                Me encanta compartir mis conocimientos con otros y aprender de sus experiencias. Estoy emocionado de seguir creciendo 
-                como desarrollador Frontend y enfrentar nuevos desafíos en el futuro.
-            </p>
-        </div>
-    </div>
-
-    <div class="skills" id="Habilidades">
-        <div class="skills-info">
-            <h2>Skills</h2>
-            <p>Lenguajes y tecnologías que uso</p>
-        </div>
-        <div class="container-grid">
-            <div class="grid-img"><div class="container-grid-img"><img src="img/html-5.png" alt=""></div></div>
-            <div class="grid-img"><div class="container-grid-img"><img src="img/css-3.png" alt=""></div></div>
-            <div class="grid-img"><div class="container-grid-img"><img src="img/js.png" alt=""></div></div>
-            <div class="grid-img"><div class="container-grid-img"><img src="img/python.png" alt=""></div></div>
-            <div class="grid-img"><div class="container-grid-img"><img src="img/git.png" alt=""></div></div>
-            <div class="grid-img"><div class="container-grid-img"><img src="img/git_hub.png" alt=""></div></div>
-        </div>
-    </div>
-
-    <div class="container-container">
-        <div class="container-projects">
-            <div class="container-info">
-                <h2>Proyectos</h2>
-                <p>Estos son los proyectos que he desarrollado</p>
-            </div>
-            <div class="grid-projects">
-                <div class="grid-information">
-                    <div class="grid-projects-img"><img src="img/p_1.png" alt=""></div>
-                    <div class="grid-info-h">
-                        <h2>Proyecto</h2>
-                        <p>Login moderno y dinamico</p>
-                        <h5>HTML5/CSS3</h5>
-                        <div class="botton-projects"><button>Ver sitio</button></div>
+        </nav>
+        <article class="caja c2">
+            <div class="main">
+                <div class="main-home">
+                    <div class="home m1">
+                        <div class="home-img"><img src="./img/me.jpg" alt=""></div>
                     </div>
-
+                    <div class="home m2">
+                        <h3>¡Hey!, Me llamo</h3>
+                        <h1>David Murillo</h1>
+                        <h2>y soy <span>web developer</span></h2>
+                        <p>Soy un joven apasionado por el desarrollo web. Adoro el diseño y la experiencia como programador,
+                            y veo cada proyecto como una nueva aventura.
+                        </p>
+                        <div class="botton">
+                            <button>Download CV</button>
+                        </div>
+                    </div>
                 </div>
 
-                <div class="grid-information">
-                    <div class="grid-info-h">
-                        <h2>Proyecto</h2>
-                        <p>Mi portafolio personal</p>
-                        <h5>HTML5/CSS3</h5>
-                        <div class="botton-projects"><button>Ver sitio</button></div>
+                <div class="main-about-me">
+                    <div class="about-me i1">
+                        <div class="about-me-img"><img src="img/david.png" alt=""></div>
                     </div>
-                    <div class="grid-projects-img x1"><img src="img/p_2.png" alt=""></div>
+                    <div class="about-me i2" id="sobre-mi">
+                        <h2>Acerca de mi</h2>
+                        <p>
+                            A pesar de que llevo 6 meses programando como desarrollador Frontend, me desenvuelto mui bien a tal punto que 
+                            mis ganas de aprender son insaciables. He trabajado en varios proyectos, aunque todos personales, pero me ha 
+                            ayudado a mejorar mis habilidades y pienso seguir expandiendo mis conocimientos, hasta donde más pueda, Me encanta la programación y todo lo relacionado con el desarrollo web.
+                        </p>
+                        <p>
+                            además estoy en la universidad, donde estudio una licenciatura en la gestión educativa y empresarial enfocada 
+                            en la informática, por lo que tengo la oportunidad de combinar mis conocimientos en programación con mis estudios universitarios. Durante mi tiempo en la universidad, he aprendido sobre gestión de proyectos, análisis de datos y diseño de sistemas de información.
+                        </p>
+                        <p>
+                            En mi tiempo libre, disfruto explorando nuevas tecnologías y participando en comunidades de desarrollo. 
+                            Me encanta compartir mis conocimientos con otros y aprender de sus experiencias. Estoy emocionado de seguir creciendo como desarrollador Frontend y enfrentar nuevos desafíos en el futuro.
+                        </p>
+                    </div>
                 </div>
 
-                <div class="grid-information">
-                    <div class="grid-projects-img"><img src="img/p_3.png" alt=""></div>
-                    <div class="grid-info-h">
-                        <h2>Proyecto</h2>
-                        <p>Tienda de ropa de gimnasio</p>
-                        <h5>HTML5/CSS3</h5>
-                        <div class="botton-projects"><button>Ver sitio</button></div>
+                <div class="main-skills" id="habilidades">
+                    <div class="skills-info">
+                        <h2>Skills</h2>
+                        <p>Lenguajes y tecnologías que uso</p>
+                    </div>
+                    <div class="skills-img">
+                        <div class="flex-img img-1"><img src="img/html-5.png" alt=""></div>
+                        <div class="flex-img img-2"><img src="img/css-3.png" alt=""></div>
+                        <div class="flex-img img-3"><img src="img/js.png" alt=""></div>
+                        <div class="flex-img img-4"><img src="img/python.png" alt=""></div>
+                        <div class="flex-img img-5"><img src="img/git.png" alt=""></div>
+                        <div class="flex-img img-6"><img src="img/github.png" alt=""></div>
+                    </div>
+                </div>
+
+                <div class="main-projects" id="proyectos">
+                    <div class="container-projects flex-p1">
+                        <h2>Proyectos</h2>
+                        <p>Estos son los proyectos que he desarrollado</p>
+                    </div>
+                    <div class="container-projects flex-p2">
+                        <div class="projects">
+                            <div class="projects-img"><img src="img/p_1.png" alt=""></div>
+                            <div class="flex-projects">
+                                <h3>Proyecto</h3>
+                                <p>Login moderno y dinamico</p>
+                                <h5>HTML5/CSS3</h5>
+                                <div class="botton-projects"><button>Ver sitio</button></div>
+                            </div>
+        
+                        </div>
+        
+                        <div class="projects right">
+                            <div class="flex-projects text-right">
+                                <h3>Proyecto</h3>
+                                <p>Mi portafolio personal</p>
+                                <h5>HTML5/CSS3</h5>
+                                <div class="botton-projects"><button>Ver sitio</button></div>
+                            </div>
+                            <div class="projects-img x1"><img src="img/p_2.png" alt=""></div>
+                        </div>
+        
+                        <div class="projects">
+                            <div class="projects-img"><img src="img/p_3.png" alt=""></div>
+                            <div class="flex-projects">
+                                <h3>Proyecto</h3>
+                                <p>Tienda de ropa de gimnasio</p>
+                                <h5>HTML5/CSS3</h5>
+                                <div class="botton-projects"><button>Ver sitio</button></div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
+
+        </article>
+        <footer class="caja c3" id="contacto">
+            <div class="container-contact">
+                <div class="flex-contact g1">
+                    <div class="contact-info">
+                        <h2>Contacto</h2>
+                        <p>Completa el siguiente formulario y estaré en contacto contigo lo antes posible</p>
+                        <p>david.josue.murillo23@gmail.com</p>
+                        <p>Tel  +507 64224268</p>
+                    </div>
+                </div>
+    
+                <div class="flex-contact g2">
+                    <div class="contact-input"><p>Nombre</p><input type="text" placeholder="Nombre" required></div>
+                    <div class="contact-input"><p>Email</p><input type="email" placeholder="Email" required></div>
+                    <div class="contact-input"><p>Telefono</p><input type="text" placeholder="(+000) Teléfono"></div>
+                    <div class="contact-input"><p>Mensaje</p><textarea name="mensaje" placeholder="Mensaje"></textarea></div>
+                    <div class="contact-input"><button>Enviar</button></div>
+                </div>
+                <div class="flex-contact g3">
+                    <p>2023 David Murillo</p>
+                </div>
+        </footer>
     </div>
 </body>
 </html>
